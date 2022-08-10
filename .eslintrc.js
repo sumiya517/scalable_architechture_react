@@ -3,19 +3,19 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended"],
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   globals: {
-    React: "readonly",
+    React: 'readonly',
   },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  plugins: ["react"],
+  plugins: ['react'],
   rules: {
-    "no-unused-vars": [1, { args: "after-used", argsIgnorePattern: "^_" }],
+    'no-unused-vars': [1, { args: 'after-used', argsIgnorePattern: '^_' }],
   },
 };
